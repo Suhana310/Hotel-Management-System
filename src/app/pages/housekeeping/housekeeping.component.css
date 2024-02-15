@@ -1,0 +1,49 @@
+.housekeeping-request-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.housekeeping-request-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.housekeeping-request-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.housekeeping-request-form label {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.housekeeping-request-form input[type="text"] {
+  font-size: 16px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+}
+
+.housekeeping-request-form textarea {
+  font-size: 16px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+}
+
+.housekeeping-request-form button {
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.housekeeping-request-form button:hover {
+  background-color: #0069d9;
+}

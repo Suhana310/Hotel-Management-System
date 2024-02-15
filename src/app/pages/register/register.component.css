@@ -1,0 +1,27 @@
+.bg-image{
+	/* Image Location */
+
+	background-position: fixed;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+h1
+{
+  text-align: center;
+  color: black;
+  font-style:oblique;
+}
+.div{
+  width: 250px;
+  height: 380px;
+  background: linear-gradient(to top, rgba(0,0,0,0.1)50%,rgba(0,0,0,0.1)50%);
+  top: -20px;
+  left: 870px;
+  border-radius: 10px;
+  padding: 25px;
+ }
+ .button{
+  text-shadow: 0lvb;
+ }

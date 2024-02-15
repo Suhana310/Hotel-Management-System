@@ -1,0 +1,74 @@
+<p>Welcome to Sona Hotel</p>
+
+
+
+
+
+
+
+<div class="bg-image" style="background-image: url('https://cdn.pixabay.com/photo/2015/03/16/22/18/hotel-676940_960_720.jpg');">
+  <div class="container">
+    <br><br><br>
+    <div class="w3-container w3-center w3-animate-zoom">
+
+    <h1 class="glow" ><strong>Welcome to Sona Hotel</strong></h1>
+    <br>
+    </div>
+
+
+  <br><br><br>
+  <div class="w3-container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card bg-light mb-3">
+              <div class="card-body">
+          <div class="card-header">Rooms</div>
+
+          <div class="card-body" >
+            <div class="w3-container" >
+              <img src="https://pic.rrr.co.il/images/galiliya/8%20%28Custom%29.jpg"  class="w3-left w3-circle w3-margin-right" style="width:100%">
+            <h5 class="card-title">Manage rooms and their availability</h5>
+            <p class="card-text">
+              Keep track of all the rooms in the hotel, their status, and make
+              updates as needed.
+            </p>
+            <a [routerLink]="['/rooms']" class="btn btn-primary">Go to Rooms</a>
+          </div>
+          </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card bg-light mb-3">
+          <div class="card-header">Guests</div>
+          <div class="card-body">
+            <img src="..\assets\images\guests.jpg" class="w3-left w3-circle w3-margin-right" style="width:100%">
+            <h5 class="card-title">Manage guests and their reservations</h5>
+            <p class="card-text">
+              Keep track of all the guests, their reservations, and manage
+              check-ins and check-outs.
+            </p>
+            <a [routerLink]="['/customers']" class="btn btn-primary">Go to Guests</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card bg-light mb-3">
+          <div class="card-header">Bookings</div>
+          <div class="card-body">
+            <div class="w3-container" >
+              <img src="https://cyrusrecharge.com/img/services/hotel.jpg" class="w3-left w3-circle w3-margin-right" style="width:100%">
+            <h5 class="card-title">Manage bookings and reservations</h5>
+            <p class="card-text">
+              Keep track of all the bookings and reservations made by guests,
+              and manage them as needed.
+            </p>
+            <a [routerLink]="['/bookings']" class="btn btn-primary">Go to Bookings</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+

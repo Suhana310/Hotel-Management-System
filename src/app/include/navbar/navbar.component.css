@@ -1,0 +1,66 @@
+
+
+.dropbtn {
+
+  color: white;
+
+  font-size: 16px;
+  border: none;
+  
+}
+
+/* Style the dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+
+  min-width: 160px;
+
+
+}
+
+/* Show the dropdown content on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+li .dropdown {
+  display: inline-block;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  text-align: center;
+  color: rgb(7, 1, 1);
+  padding: 14px 16px;
+  text-decoration: none;
+  margin: 0 0 0 15px;
+
+}
+
+

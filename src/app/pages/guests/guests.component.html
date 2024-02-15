@@ -1,0 +1,42 @@
+<p>guests works!</p>
+<div class="guest-container">
+  <h2>Guest Information</h2>
+
+  <form>
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" [(ngModel)]="guest.name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" [(ngModel)]="guest.email" required>
+    </div>
+
+    <div class="form-group">
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" [(ngModel)]="guest.phone" required>
+    </div>
+
+    <div class="form-group">
+      <label for="check-in-date">Check-In Date:</label>
+      <input type="date" id="check-in-date" name="check-in-date" [(ngModel)]="guest.checkInDate" required>
+    </div>
+
+    <div class="form-group">
+      <label for="check-out-date">Check-Out Date:</label>
+      <input type="date" id="check-out-date" name="check-out-date" [(ngModel)]="guest.checkOutDate" required>
+    </div>
+
+    <div class="form-group">
+      <label for="room-type">Room Type:</label>
+      <select id="room-type" name="room-type" [(ngModel)]="guest.roomType" required>
+        <option value="single">Standard</option>
+        <option value="double">Guests Rooms</option>
+        <option value="suite">Suite</option>
+      </select>
+    </div>
+
+    <button type="submit" (click)="saveGuest()">Save</button>
+  </form>
+</div>

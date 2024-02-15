@@ -1,0 +1,141 @@
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  height: 80%;
+  width: 80%;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.left-panel {
+  flex-basis: 30%;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+}
+
+.right-panel {
+  flex-basis: 70%;
+  padding: 20px;
+}
+
+.room-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.room-list li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.room-list li:hover {
+  background-color: #f2f2f2;
+}
+
+.selected-room {
+  background-color: #f2f2f2;
+}
+
+.menu-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.menu-list li:hover {
+  background-color: #f2f2f2;
+}
+
+.cart {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.total {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.submit-button {
+  margin-top: 20px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.room-card {
+  width: 30%;
+  margin-bottom: 30px;
+}
+
+.room-card img {
+  width: 100%;
+}
+
+.room-card h2 {
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+
+.room-card p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.room-card button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.room-card button:hover {
+  background-color: #0069d9;
+}
+
+.alert {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+}

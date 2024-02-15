@@ -1,0 +1,140 @@
+<!--<div class="room-list">
+  <h2>Rooms</h2>
+  <div *ngFor="let room of rooms">
+    <div class="room">
+      <div class="room-details">
+        <h3>{{ room.id}}</h3>
+        <p>Room Number: {{ room.roomNumber }}</p>
+        <p>Room Type: {{ room.roomType }}</p>
+        <p>Price per night: ${{ room.price }}</p>
+        <p>Occupancy: {{ room.occupancy }} people</p>
+      </div>
+      <div class="room-status">
+        <span class="status-label">{{ room.status }}</span>
+      </div>
+    </div>
+  </div>
+</div>-->
+
+
+<!--<div class="room">
+  <h3>Room {{ roomNumber }}</h3>
+  <div class="status">
+    <p>Status:</p>
+    <p class="current-status">{{ currentStatus }}</p>
+
+  </div>
+  <div class="guest-info" *ngIf="currentStatus === 'occupied'">
+    <p>Guest name: {{ guestName }}</p>
+    <p>Check-in date: {{ checkinDate | date:'mediumDate' }}</p>
+  </div>
+</div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<div class="container">
+  <h2 class="text-center my-3">Room Details</h2>
+  <hr>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="form-group">
+        <label for="roomNumber">Room Number:</label>
+        <input type="text" class="form-control" id="roomNumber" [(ngModel)]="room.roomNumber" name="roomNumber" required>
+      </div>
+      <div class="form-group">
+        <label for="roomType">Room Type:</label>
+        <select class="form-control" id="roomType" [(ngModel)]="room.roomType" name="roomType" required>
+          <option *ngFor="let type of roomTypes" [value]="type">{{type}}</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="roomPrice">Room Price:</label>
+        <input type="text" class="form-control" id="roomPrice" [(ngModel)]="room.roomPrice" name="roomPrice" required>
+      </div>
+      <div class="form-group">
+        <label for="roomDescription">Room Description:</label>
+        <textarea class="form-control" id="roomDescription" [(ngModel)]="room.roomDescription" name="roomDescription"></textarea>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="form-group">
+        <label for="roomStatus">Room Status:</label>
+        <select class="form-control" id="roomStatus" [(ngModel)]="room.roomStatus" name="roomStatus" required>
+          <option *ngFor="let status of roomStatuses" [value]="status">{{status}}</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="roomCapacity">Room Capacity:</label>
+        <input type="text" class="form-control" id="roomCapacity" [(ngModel)]="room.roomCapacity" name="roomCapacity" required>
+      </div>
+
+      <div class="form-group">
+        <img [src]="('..\assets\images\img1.jpg')" class="img-thumbnail" alt="Room Image" style="max-height: 200px;">
+      </div>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary my-3" (click)="onSubmit()">Save</button>
+</div>-->
+
+
+
+
+
+
+<!--div class="container">
+  <h2>Rooms</h2>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Room Number</th>
+        <th>Type</th>
+        <th>Capacity</th>
+        <th>Price</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let room of room">
+        <td>{{room.roomNumber}}</td>
+        <td>{{room.type}}</td>
+        <td>{{room.capacity}}</td>
+        <td>{{room.price}}</td>
+        <td>
+          <button class="btn btn-primary" (click)="editRoom(room)">Edit</button>
+          <button class="btn btn-danger" (click)="deleteRoom(room)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <button class="btn btn-success" (click)="addRoom()">Add Room</button>
+
+
+</div>-->
+
+
+
+
+
+<!--<form [formGroup]="roomForm">
+  <label>Room Number:</label>
+  <input type="text" formControlName="roomNumber">
+
+  <label>Room Type:</label>
+  <input type="text" formControlName="roomType">
+
+
+
+  <label>Price:</label>
+  <input type="number" formControlName="price">
+
+  <button type="submit">Add Room</button>
+</form>-->

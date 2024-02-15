@@ -1,0 +1,129 @@
+.contact{
+  position:relative;
+  min-height:100vh;
+  padding: 50px 100px;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  background:url('https://www.ticketswhales.com/wp-content/uploads/2020/06/contact-us-1.jpg');
+  background-size:cover;
+}
+.content{
+  max-width:800px;
+  text-align:left;
+}
+.contact .content{
+  font-weight:300;
+  color: white;
+}
+.container
+{
+  width:100%;
+  display:flex;
+  justify-content:space-evenly;
+  align-items:center;
+  margin-top:30px;
+}
+.container .containerInfo{
+  width:50%;
+  display:flex;
+  flex-direction: column;
+
+}
+.container .containerInfo .box{
+  position:relative;
+  padding:20px 0;
+  display:flex;
+}
+.container .containerInfo .box .icon{
+  min-width:100px;
+  height:100px;
+  background:#fff;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border-radius:50%;
+  font-size:22px;
+}
+.container .contactInfo .box .text{
+  display:flex;
+  margin-left: 20px;
+  font-size: 16px;
+  color:rgb(17, 17, 16);
+  flex-direction:column;
+  font-weight:300;
+
+}
+.container .contactInfo .box .text h3{
+  font-weight: 500;
+  color:white
+}
+.contactForm
+{
+  width:50%;
+  padding:40px;
+  box-sizing: border-box;
+  border-style: groove;
+border-start-end-radius: 5px;
+
+}
+.contactForm .inputBox{
+  position:relative;
+  width:100%;
+  margin-top:20%;
+
+ }
+.contactForm .inputBox input{
+  width: 100% ;
+  padding:5px 0;
+  font-size:16px;
+  margin:10px 0;
+  border:none;
+  margin: 5px 0 40px 0;
+  border-bottom:2px solid #333;
+  outline:none;
+  resize:none;
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+.contactForm .inputBox span{
+  position:absolute;
+  left:0;
+  padding: 5px 0;
+  font-size:16px;
+  margin:10px 0;
+  pointer-events:none;
+  transition:0.5%;
+  color:black;
+}
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span
+{
+  color:black;
+  font-size:12px;
+  transform:translateY(-20px);
+}
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+h2{
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+

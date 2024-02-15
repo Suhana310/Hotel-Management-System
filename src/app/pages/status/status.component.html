@@ -1,0 +1,12 @@
+<p>status works!</p>
+<div class="status">
+  <h3>Update Room Status</h3>
+  <p>Current status: {{ currentStatus }}</p>
+  <div class="form-group">
+    <label for="new-status">New status:</label>
+    <select id="new-status" class="form-control" [(ngModel)]="selectedStatus">
+      <option *ngFor="let status of statusOptions" [value]="status">{{ status }}</option>
+    </select>
+  </div>
+  <button class="btn btn-primary" (click)="updateStatus()">Update Status</button>
+</div>
